@@ -1,0 +1,82 @@
+/* Define font styles for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Define style for the header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #059903;
+  color: white;
+}
+
+/* Define style for the company logo */
+.logo img {
+  height: 50px;
+}
+
+/* Define style for the header content */
+.header-content {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+/* Define style for the main heading */
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Define style for the subtitle */
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Define style for the description */
+p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+
+/* Define style for the contact details section */
+.contact-details {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+/* Define style for the contact details heading */
+.contact-details h3 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #059903;
+}
+
+/* Define style for the contact details list */
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Define style for the contact details list items */
+.contact-details li {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Define style for the Save to Contacts button */
+#save-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #059903
